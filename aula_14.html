@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 14 - Manipulação do DOM</title>
+    <style>
+        #container { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
+        .card { border: 1px solid #ccc; padding: 15px; border-radius: 8px; width: 200px; }
+        .escondido { display: none; }
+        .eletronico { border-color: blue; }
+    </style>
+</head>
+<body>
+
+    <h1>Cards de Produtos</h1>
+
+    <button id="btn-eletronicos">Mostrar só eletrônicos</button>
+    <button id="btn-limpar">Limpar tudo</button>
+
+    <div id="container"></div>
+
+    <script src="/aula14.js"></script>
+</body>
+</html>
